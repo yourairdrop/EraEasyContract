@@ -29,6 +29,6 @@ yarn add -D typescript ts-node ethers@^5.7.2 zksync-web3 hardhat @matterlabs/har
 deploy文件夹中有一个deploy-counter.ts文件，"your_private_key"是你钱包的私钥，需要自行填写，其他的文件暂时都不用管
 我们直接运行‘yarn hardhat compile’命令编译合约，会看到生成了一个'artifacts-zk'文件夹，这是编译后机器能够读懂的语言。
 再运行'npx hardhat deploy-zksync'，不出意外，会在终端看到合约已经生成，大概会有这么一行字：Counter was deployed to 0x737dE2e406571231663109A5fF0a9c1E1c448335
-接下来，就可以用自己的钱包发生16进制字段进行交互了
+接下来，就可以用自己的钱包发送16进制字段进行交互了
 
 
